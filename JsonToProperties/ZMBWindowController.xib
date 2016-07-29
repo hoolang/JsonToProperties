@@ -44,7 +44,6 @@
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </clipView>
                         <constraints>
-                            <constraint firstAttribute="height" constant="202" id="g51-SY-FyY"/>
                             <constraint firstAttribute="width" constant="440" id="sni-UA-7bo"/>
                         </constraints>
                         <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="u7w-CM-Bv8">
@@ -88,6 +87,7 @@
                 <constraints>
                     <constraint firstItem="xlG-fX-vv7" firstAttribute="centerY" secondItem="ZTD-QO-Nvq" secondAttribute="centerY" id="4kd-wv-crD"/>
                     <constraint firstItem="J9h-iE-uzy" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="20" id="77d-IM-i3d"/>
+                    <constraint firstItem="ZTD-QO-Nvq" firstAttribute="top" secondItem="J9h-iE-uzy" secondAttribute="bottom" constant="16" id="MZf-NS-8gc"/>
                     <constraint firstItem="ZTD-QO-Nvq" firstAttribute="leading" secondItem="xlG-fX-vv7" secondAttribute="trailing" constant="40" id="NR6-nH-PMq"/>
                     <constraint firstItem="J9h-iE-uzy" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="20" id="Vb5-f3-USf"/>
                     <constraint firstAttribute="trailing" secondItem="ZTD-QO-Nvq" secondAttribute="trailing" constant="43" id="ehp-tU-EvQ"/>
